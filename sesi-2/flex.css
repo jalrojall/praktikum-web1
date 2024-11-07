@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+.container div {
+  background: lightskyblue;
+  border: 5px solid lime;
+  height: 100px;
+  flex: 1;
+}

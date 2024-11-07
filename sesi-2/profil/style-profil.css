@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+}
+
+.nav_content {
+  max-width: 1350px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  font-size: 40px;
+  font-weight: 600;
+  color: #a855f7;
+  transition: 0.3s;
+}
+
+nav .logo a:hover {
+  color: #9333ea;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+ul li a {
+  padding: auto;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 550;
+  color: #1f2937;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-top-color: #9333ea;
+  border-bottom-color: #9333ea;
+  color: #9333ea;
+}
+
+.section {
+  max-height: 100%;
+  background-color: #faf5ff;
+}
+
+.section_container {
+  min-height: auto;
+  max-width: 1500px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub {
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #6b7280;
+}
+
+.description span {
+  font-weight: 600;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #1f2937;
+  margin-bottom: 15px;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.image_contact {
+  gap: 60px;
+  display: grid;
+}
+
+.image_contact img {
+  max-width: 1000px;
+}
+
+.image_about {
+  display: flex;
+  gap: 50px;
+}
+
+.image_about img {
+  margin-top: 70px;
+  width: 350px;
+  place-items: center;
+}
+
+.image_profil {
+  display: grid;
+  place-items: center;
+}
+
+.image_profil img {
+  margin-top: 70px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+footer {
+  color: #1f2937;
+  text-align: center;
+  opacity: 70%;
+  padding: 13px;
+  background-color: #ffffff;
+  text-align: center;
+}
